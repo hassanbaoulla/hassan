@@ -1,0 +1,86 @@
+@font-face{
+    font-family:"Oswald;"
+}
+body{
+     background-image: url("../img/fond.png");
+     margin: auto;
+     text-align: center;
+     padding:20 20 20 20;
+}
+/*HEADER*/
+header {
+	background-color: #B8CB21;
+	margin:0 auto;
+    max-width:750px;
+}
+header a{
+    color:#2d462;
+    text-align:right;
+    width:30%;
+}
+
+header nav {
+    width: 65%;
+    background:#B8CB21;
+	float: right; /*je demande à la nav de monter se coller à droite de l'élément précédent*/
+    height: 50px;
+    line-height: 50px;
+    padding: 1.3em;
+}
+header nav a {
+	color: #2C4726;
+	font-size: 1.3em;
+	  padding:0.5em;
+}
+.logo{
+	margin: 0;padding: 0
+}
+
+
+/*MAIN*/
+main{
+    background-color:white;
+    margin:auto;
+    padding:0 0 30px 0;
+    clear:both;/* le float demandé plus tôt va s'appliquer à tous les élément suivants - on met clear pour stopper*/
+    margin:0 auto;
+    max-width:750px;
+}
+main img{
+    background-position: left;
+    width:30%;
+    height:30%;
+    float:left;
+}
+section a{
+    float:right;
+    background-color:#9bbd9b;
+}
+section{
+    font-family:"Oswald";
+    padding:1em;
+}
+li{
+      margin-right: 30%;
+      padding-right: 30%;
+}
+
+h2{
+    text-align:center;
+    font-family:"Oswald";
+    text-align: left;
+	color: #a3dda3;
+	padding:1em;
+}
+
+/* footer */
+footer {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+footer img {
+    width: 5%;
+    height:5%;
+}
