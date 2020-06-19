@@ -1,10 +1,20 @@
+// isNaN = is Not a Number;
+console.log(isNaN(20));
+console.log(isNaN('vingt'));
+
+
 const TVA = 20.0;
 
 let prixHT = '';
 
+
 do {
+    // fais ca
+    
     prixHT = parseFloat(prompt('Entrer un prix HT'));
-} while(isNaN(prixHT))
+    
+    // tant que la on est pas content
+} while(isNaN(prixHT));
 
 
 if(isNaN(prixHT)) {

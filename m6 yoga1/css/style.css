@@ -1,0 +1,138 @@
+
+
+
+body{
+    font-size: 1em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 120%;
+    background-repeat: no-repeat;
+}
+/*HEADER*/
+header{
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    text-align: center;
+    background-color: transparent;
+    
+    
+}
+header nav{
+    font-size: 1em;
+    padding: 50px;
+    margin-left: 50px;
+    background-color: rgba(209, 181, 225, 0.2);
+}
+nav a,h1{
+
+    padding:5%;
+    text-decoration:none ;
+    color:#FFFFFF ;
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+    display: inline-block;
+}
+nav p{
+    color:#FFFFFF ;
+}
+.fa{
+    display: block;
+    
+}
+header p{
+    font-family:"Playfair Display" ;
+}
+
+/*MAIN*/
+main{
+    box-sizing: border-box;
+	max-width: 1100px;
+	min-width:100px;
+    margin: auto;
+    font-family:"Playfair Display";
+}
+h2{
+    font-family: "Kaushan Script";
+    text-align: center;
+}
+#article1 img{
+    padding: 6px;
+    float: left;
+    width: 300px;
+    height: 150px;
+}   
+#article2 img{
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+#section2{
+    
+    padding: 2%;
+    text-decoration: none;
+    background-color:#C8B1E9 ;
+    
+    
+    
+}
+#section2 img{
+    width: 120px;
+    padding: 80px;
+    clear: both;
+    
+}
+h5{
+    color:#FFFFFF;
+}
+#section2 p{
+    margin: 5% 8% 2% 5%;
+    width:80%;
+    
+}
+#home1{
+    
+    background-position: center;
+    display: inline-block;
+    text-align:center;
+    box-sizing: border-box;
+    width: 33%;
+    
+    
+    
+}
+#home2{
+    
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 33%;
+    
+}
+#home3{
+    
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+iframe{
+    width: 1100px;
+    height: 300px;
+    
+}
+/*FOOTER*/
+#licence {
+    background-color:#7367CB ;
+    display: block;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#licence img {
+     width: 50px;
+     height: 50px;
+}
